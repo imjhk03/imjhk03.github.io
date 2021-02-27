@@ -1,0 +1,90 @@
+---
+title: git 강의 때 들었던 내용 정리
+layout: post
+description: 2017년도 T아카데미 (18차) '대학생을 위한 Git 실전 활용법' 강의 내용 정리
+categories:
+- Study
+tags:
+- git
+- blog
+---
+
+대학생 때 들었던 Git 강의 내용을 종이 필기로 남겼는데, 버리기는 아까워 블로그 포스트로 옮겼습니다. 부족한 점이 있으면 알려주시면 감사하겠습니다. :D
+
+## 회사가 git을 안 쓰고 있다면 문제가 있다!
+* git을 써야하는 이유? 브랜치!
+
+```
+git config --global ~   // 지금 로그온한 계정에 전체 설정
+git config --list       // 현재 저장소 로컬 설정
+/.git/  // 로컬 저장소 데이터베이스
+```
+
+```
+git init
+git status          // 작업영역 상태 확인
+git add ~           // 스테이지 영역 추가, 바뀐 내용, 새로운 내용
+git commit -m "~"   // 커밋하면서 설명 남김 (message)
+git commit {id}     // 고유 SHA1 값
+git log
+```
+
+* 기존 파일 커밋해도 변경된 내용 있으면 add 해야 함
+
+## Branch 작업
+- 상호 독립 다수 로컬 브랜치
+- 아주 쉽게 문맥 전환
+- 역할 구분에 활용하기 좋다 (배포/개발/테스트)
+- 구현하려는 기능 단위 브랜치도 Good!
+
+```
+git branch testing
+git branch -v
+```
+
+* HEAD - 현재 브랜치의 최종커밋을 가리킴
+
+```
+git checkout <branch 이름> // 새 브랜치로 전환
+```
+
+* 브랜치를 전환하면 작업 디렉토리 내용도 함께 바뀜
+
+```
+// 마스터일 때
+git merge testing   // master에도 변경 내역을 반영 -> 합치기(merge)
+
+// 되돌리기
+git reset --hard {커밋ID(7자리)}
+```
+
+* master와 브랜치가 각자 길을 가고 있다면 공통 조상 찾아서 처리
+
+```
+// 로그 간단히 보기
+git log --oneline
+// remote 저장소로 push
+git remote add <name> <url>
+git revert <커밋ID>  // 복구, 역커밋
+```
+
+* Fast-forward
+revert 역커밋
+생성된 것 -> 없앤다
+수정한걸 -> 원래대로 복구
+
+## 프로젝트 포크(Fork)
+- 특정 저장소를 내 영역(단체/개인)으로 복제
+- 별도 작업 진행 후, Pull Request 전송
+- 수락되면 merge 됨
+
+- copy of a repository
+- propose changes to someone else's progject -> bug fix
+- instead of using a single server-side repository,<br>
+  every developer has their own server-side repository
+- clone이랑 다르게 personal public repository
+
+### Git 강의와 함께 작업했던 리파지토리
+[hello](https://github.com/imjhk03/hello){:target="_blank"}<br>
+[react](https://github.com/imjhk03/react){:target="_blank"} (같은 그룹내의 개발자들과 같이 fork한 리파지토리)<br>
+[T아카데미 강연자료](https://tacademy.skplanet.com/front/contents/databoard/viewDataBoard.action?seq=193){:target="_blank"}
