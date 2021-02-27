@@ -1,0 +1,96 @@
+---
+title: 개인적으로 추천하는 도움이 되는 iOS 공부 자료
+layout: post
+categories:
+- Tips
+tags:
+- iOS
+---
+
+해당 포스트는 개인적으로 iOS 공부할 때 도움이 되는 책, 인터넷 자료, 강의 등을 모아놓은 글입니다. 개인에 따라 도움이 되는 자료일 수 있고, 아닐 수 있기 때문에 가볍게 참고용으로 보시면 좋을 것 같습니다. :)   
+<br>
+
+# 책, 인터넷 자료, 강의
+
+### 1. 책
+
+- 꼼꼼한 재은 씨의 스위프트 시리즈
+
+    [꼼꼼한 재은 씨의 스위프트 기본편](http://www.yes24.com/Product/Goods/60638047){:target="_blank"}
+
+- raywenderlich 책 시리즈   
+    영어로 되어 있지만, 꽤 많은 iOS 및 안드로이드 개발자들이 책을 사서 공부함   
+    분야별로 나뉘어져 있어, 필요한 것만 구입하여 볼 수 있음   
+
+    [raywenderlich.com Store](https://store.raywenderlich.com){:target="_blank"}
+
+### 2. 인터넷 자료
+
+- 100 Days of Swift (무료)   
+    100일 동안 매일 스위프트 공부할 수 있는 커리큐럼   
+    스위프트 문법부터 시작해서 예제 프로젝트까지 다양하게 할 수 있음   
+    100일 동안 꾸준히 공부할 수 있게 양이 조절 되어 있음   
+    **단, 영어로 되어 있음**
+
+    [100 Days of Swift - Hacking with Swift](https://www.hackingwithswift.com/100){:target="_blank"}
+
+- 유튜브 채널 추천
+    - Lets Build That App   
+        유튜브, 페이스북, 인스타그램 등 다양한 앱들을 만들어보는 프로젝트 시리즈로 만들어 유튜브 채널에 올림   
+        짤막하게 기능 구현하는 동영상도 있어 필요한 부분만 찾아 봐도 무방   
+        [유료로 된 강의를 올리는 사이트](https://www.letsbuildthatapp.com){:target="_blank"} 있어, 필요한 기능들이 있는 앱 강의 구입하여 수강해도 좋음   
+        **단, 영어로 되어 있음**
+
+        [Lets Build That App](https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI92mA){:target="_blank"}
+
+### 3. 강의
+
+- GitHub Followers <b><font color="red">(유료, $149)</font></b>   
+    개인 예제 프로젝트로, 회사 입사하기 전 과제 형태로 준비되어 있어 입사할 때 도움이 될 것   
+    최신 기술부터 시작해서 네트워킹, 검색 UI, CollectionView 등 다양하게 화면을 작업 및 기능 구현할 수 있음   
+    제일 추천하는 강의   
+
+    **단, 영어로 되어 있음**
+
+    [Sean Allen](https://seanallen.teachable.com){:target="_blank"}
+
+- LBTA 강의 <b><font color="red">(유료, 프로젝트별로 가격이 다름)</font></b>    
+    현재 진행하는 프로젝트의 특성에 맞게 구매하여 수강해도 좋음   
+    다양한 기능들을 공부할 수 있고, 최근에는 NodeJS 등 풀 스택 강의도 있음   
+    **단, 영어로 되어 있음**   
+
+    [Courses](https://www.letsbuildthatapp.com){:target="_blank"}
+
+<br>
+
+# 기타
+
+## 커뮤니티
+
+- Swift Korea 페이스북
+
+    [Swift Korea](https://www.facebook.com/groups/swiftkor/){:target="_blank"}
+
+## 컨퍼런스
+
+- Let'Swift
+
+    [다같이 함께 만드는 스위프트 컨퍼런스: Let'Swift](http://letswift.kr/2019/){:target="_blank"}
+
+- WWDC
+
+    [WWDC20](https://developer.apple.com/wwdc20/){:target="_blank"}
+
+## 웹사이트
+
+- Hacking with Swift
+
+    [Hacking with Swift - learn to code iPhone and iPad apps with free Swift 5.1 tutorials](https://www.hackingwithswift.com){:target="_blank"}
+
+- Raywenderlich
+
+    [raywenderlich.com](https://www.raywenderlich.com){:target="_blank"}
+
+- NSHipster
+
+    [NSHipster](https://nshipster.com){:target="_blank"}
