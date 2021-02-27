@@ -1,0 +1,63 @@
+---
+title: Ad Hoc 방식으로 iOS 앱 개발하는 방법
+layout: post
+tags: iOS deploy
+---
+
+예전에 사내용으로 앱을 개발하여 배포했던 적이 있었다. 사내용으로 만들 때는 Enterprise 개발자 계정으로 Ad Hoc 또는 Enterprise 용으로 앱을 만들어 배포할 수 있는데, 그중에 Ad Hoc 방식으로 했던 것들을 정리해보았다. (개인적으로 보려고 작성해서 이해하기 힘들 수 있다.)
+
+## iOS 앱 만들기
+- Bundle Identifier : 앱의 유일한 식별자, 코드 인증과 개발자 인증에 매우 중요한 정보
+
+## Provisioning Profile 만들기
+- App ID, Certificates, Devices
+- 코드 인증, 디바이스 인증 담당. 앱 개발에 중요한 프로파일
+- 개발자 사이트 로그인  -> iOS provisioning profile 만듦
+
+### Ad Hoc provisioning profile
+ -> distribution -> Ad Hoc -> 인증될 앱 App ID -> 개발자의 certificates -> 등록된 디바이스 선택 -> provisioning profile의 이름 입력 -> generate -> distribution provisioning profile
+
+## Xcode 설정
+- Code sign과 provisioning profile 설정
+- 배포할 때 개발용 프로비저닝 선택 X
+
+## IPA 생성 (시뮬레이터 말고 General device로 설정)
+- Product -> Archive -> Export -> Save for Ad Hoc Deployment -> 개발자 계정 로그인 -> ipa 파일 이름 지정.저장
+
+## Dropbox를 통한 https 서버 사용 및 pllist 파일, 앱 다운로드 웹페이지 생성
+- 드롭박스 업로드 후 링크 공유 -> dl.dropboxusercontent.com 주소 변환 -> pllist 파일 생성 -> 드롭박스 업로드 후 링크 공유 ->  dl.dropboxusercontent.com 주소 변환 -> 이 주소를 웹페이지에 a 태그 url 주소로 넣기 -> 웹페이지로 앱 설치 확인하기
+
+### plist 템플릿
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>items</key>
+        <array>
+                <dict>
+                        <key>assets</key>
+                        <array>
+                                <dict>
+                                        <key>kind</key>
+                                        <string>software-package</string>
+                                        <key>url</key>
+                                        <string>[INSERT URL HERE]</string>
+                                </dict>
+                        </array>
+                        <key>metadata</key>
+                        <dict>
+                                <key>bundle-identifier</key>
+                                <string>[INSERT BUNDLE ID HERE]</string>
+                                <key>bundle-version</key>
+                                <string>[INSERT VERSION HERE]</string>
+                                <key>kind</key>
+                                <string>software</string>
+                                <key>title</key>
+                                <string>[INSERT APP TITLE HERE]</string>
+                        </dict>
+                </dict>
+        </array>
+</dict>
+</plist>
+```
