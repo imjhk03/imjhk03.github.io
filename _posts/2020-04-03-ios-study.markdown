@@ -1,10 +1,8 @@
 ---
 title: 개인적으로 추천하는 도움이 되는 iOS 공부 자료
 layout: post
-categories:
-- Tips
-tags:
-- iOS
+categories: Tips
+tags: iOS
 ---
 
 해당 포스트는 개인적으로 iOS 공부할 때 도움이 되는 책, 인터넷 자료, 강의 등을 모아놓은 글입니다. 개인에 따라 도움이 되는 자료일 수 있고, 아닐 수 있기 때문에 가볍게 참고용으로 보시면 좋을 것 같습니다. :)   
