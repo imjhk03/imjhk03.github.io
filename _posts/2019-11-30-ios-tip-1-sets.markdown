@@ -2,7 +2,7 @@
 title: Use Sets for unique
 layout: post
 date: '2019-11-30 23:30:00'
-tags: Swift
+tags: swift
 ---
 
 If there is something you need to handle data unique, use **Sets** instead of **Array**.
