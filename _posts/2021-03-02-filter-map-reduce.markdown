@@ -7,7 +7,7 @@ tags: swift
 
 There are some times we need to iterate an array or dictionary to collect or manipulate values. The easy way is using for-in loop, get a value and add or manipulate it to a new array. But Swift offers a great functions that makes it a little cleaner. These functions are called "Higer Order Functions", and they are `filter`, `map`, `reduce` and more.
 
-It takes some time to get used to it. I personally try to use these functions, but doesn't pop it right away while coding. So, I'm writing this post to try to get used to it, or to make a cheat sheet to remind me again.
+It takes some time to get used to it. I personally try to use these functions, but doesn't pop it right away while coding. So, I'm hopefully to get used to it writing this post. (Or comeback to remind it again 😅)
 
 # Filter
 
