@@ -5,6 +5,7 @@ gem "jekyll-theme-chirpy"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-xxx", "~> x.y"
+  gem 'jekyll-twitter-plugin'
 end
 
 group :test do

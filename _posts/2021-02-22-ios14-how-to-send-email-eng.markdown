@@ -1,7 +1,7 @@
 ---
 title: How to send emails from iOS 14
 layout: post
-author: Joo Hee Kim
+author: Joohee Kim
 tags: swift iOS
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 주니어 개발자의 마지막, 미드레벨(mid-level) 개발자의 시작
 layout: post
-author: Joo Hee Kim
+author: Joohee Kim
 categories: Blog
 tags: iOS
 ---

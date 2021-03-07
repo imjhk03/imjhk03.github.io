@@ -1,7 +1,7 @@
 ---
 title: How to round corners specifically on a UIView
 layout: post
-author: Joo Hee Kim
+author: Joohee Kim
 description: How to round corners specifically on a UIView
 categories: Tips
 tags: iOS
