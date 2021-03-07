@@ -1,7 +1,7 @@
 ---
 title: Comparable enum
 layout: post
-author: Joo Hee Kim
+author: Joohee Kim
 description: From Swift 5.3 and later, enums can be comparable
 tags: swift
 ---

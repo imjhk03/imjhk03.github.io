@@ -1,7 +1,7 @@
 ---
 title: 'Higher Order Functions: Filter, Map, Reduce'
 layout: post
-author: Joo Hee Kim
+author: Joohee Kim
 tags: swift
 ---
 

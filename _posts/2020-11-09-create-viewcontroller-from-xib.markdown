@@ -1,7 +1,7 @@
 ---
 title: How to create a view controller from xib
 layout: post
-author: Joo Hee Kim
+author: Joohee Kim
 description: Create xib file for view controller
 tags: iOS
 ---

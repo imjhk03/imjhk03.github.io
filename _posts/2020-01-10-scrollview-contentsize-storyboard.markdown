@@ -1,7 +1,7 @@
 ---
 title: How to deal with scroll view content size with storyboard
 layout: post
-author: Joo Hee Kim
+author: Joohee Kim
 description: Create scroll view properly with storyboard
 tags: iOS layout
 ---

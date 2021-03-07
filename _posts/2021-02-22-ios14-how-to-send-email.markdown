@@ -1,7 +1,7 @@
 ---
 title: iOS 14부터 달라진 앱에서 이메일 보내는 방법
 layout: post
-author: Joo Hee Kim
+author: Joohee Kim
 description: iOS 14에서 달라진 앱에서 이메일 보내는 방법을 알아봅시다
 tags: swift iOS
 ---

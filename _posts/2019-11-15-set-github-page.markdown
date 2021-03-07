@@ -1,7 +1,7 @@
 ---
 title: 깃허브(GitHub) 블로그 구축하기
 layout: post
-author: 김주희
+author: Joohee Kim
 description: GitHub Page 구축하면서 삽질한 이야기
 tags: blog
 ---
