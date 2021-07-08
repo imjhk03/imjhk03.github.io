@@ -12,9 +12,12 @@ tags: iOS
 
 ### 1. 책
 
-- 꼼꼼한 재은 씨의 스위프트 시리즈
+- Intro to App Development with Swift
+    영어로 되어 있지만, Apple에서 만든 책으로 Swift Playground을 이용해서 문법과 기본적인 동작을 배우고,
+    앱을 개발할 수 있는 내용도 있음. 한 챕터 끝날 때마다 퀴즈를 풀어 복습할 수 있음.
 
-    [꼼꼼한 재은 씨의 스위프트 기본편](http://www.yes24.com/Product/Goods/60638047){:target="_blank"}
+    [Intro to App Development with Swift](https://books.apple.com/us/book/intro-to-app-development-with-swift/id1118575552){:target="_blank"}
+
 
 - raywenderlich 책 시리즈   
     영어로 되어 있지만, 꽤 많은 iOS 및 안드로이드 개발자들이 책을 사서 공부함   
@@ -71,13 +74,9 @@ tags: iOS
 
 ## 컨퍼런스
 
-- Let'Swift
-
-    [다같이 함께 만드는 스위프트 컨퍼런스: Let'Swift](http://letswift.kr/2019/){:target="_blank"}
-
 - WWDC
 
-    [WWDC20](https://developer.apple.com/wwdc20/){:target="_blank"}
+    [WWDC21](https://developer.apple.com/wwdc21/){:target="_blank"}
 
 ## 웹사이트
 
