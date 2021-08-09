@@ -1,5 +1,5 @@
 ---
-title: Xcode 공간 이해 및 관리
+title: Xcode 저장공간 이해 및 관리
 layout: post
 tags: Xcode
 ---
