@@ -1,5 +1,5 @@
 ---
-title: Use Live View in Swift Playground to Show View
+title: Use Live View in Swift Playground
 layout: post
 tags: [swift playground, developer tools]
 ---
