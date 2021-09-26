@@ -81,7 +81,5 @@ revert 역커밋
   every developer has their own server-side repository
 - clone이랑 다르게 personal public repository
 
-### Git 강의와 함께 작업했던 리파지토리
-[hello](https://github.com/imjhk03/hello){:target="_blank"}<br>
-[react](https://github.com/imjhk03/react){:target="_blank"} (같은 그룹내의 개발자들과 같이 fork한 리파지토리)<br>
+### Git 강의
 [T아카데미 강연자료](https://tacademy.skplanet.com/front/contents/databoard/viewDataBoard.action?seq=193){:target="_blank"}
