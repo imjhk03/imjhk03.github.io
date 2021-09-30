@@ -1,8 +1,7 @@
 ---
 title: '나의 새로운 Mac 설정 목록 (Setup my personal Mac)'
 layout: post
-categories: Tips
-tags: macOS
+tags: [workflow, macOS]
 ---
 
 맥os를 사용한 지 6년이 되었고, 항상 새로운 맥북 혹은 초기화 후에는 나한테 맞는 설정을 한다. 새로 설정할 때마다 가끔 까먹을 때도 있어 글을 쓰게 되었다. 혹시나 이 글을 읽게 되었다면, 해당 내용 중에 유용한 거 있으면 적용해 보아도 좋을 것 같다.
@@ -22,6 +21,8 @@ tags: macOS
     ![Dock with empty space](/assets/img/2020/10/02/image1.png){:height="1000px"}
 
 5. Mission Control - 핫 코너
+    - Spaces를 최근 사용 내역에 따라 자동으로 재정렬 체크 해제
+    ![Mission Control 체크 리스트](/assets/img/2020/10/02/image5.png)
     - Launchpad, Mission Control, 데스크탑, 디스플레이 잠자기
     ![Mission Control 핫 코너](/assets/img/2020/10/02/image2.png)
 6. 언어 및 지역 - 고급 - 날짜 설정
