@@ -5,7 +5,8 @@ platforms:
   -
     type: Twitter
     icon: "fab fa-twitter"
-    link: "https://twitter.com/intent/tweet?url=URL"
+    link: "https://twitter.com/intent/tweet?text=TITLE&url=URL&via=_jooheekim_"
+  
   # -
   #   type: Facebook
   #   icon: "fab fa-facebook-square"
