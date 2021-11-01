@@ -62,4 +62,6 @@ tags: [workflow, macOS]
     - Twitter
     - Dropbox
         - 배경화면 폴더 연동
-    - Melon
+    - Fig
+    - Spotify
+    - Spark Email App
