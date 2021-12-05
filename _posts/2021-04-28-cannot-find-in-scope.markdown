@@ -1,7 +1,7 @@
 ---
 title: Cannot find 'Something' in scope
 layout: post
-tags: CocoaPods
+tags: cocoaPods
 ---
 
 After updating some third party sdk version, there was a warning that can't find some library when building the project.

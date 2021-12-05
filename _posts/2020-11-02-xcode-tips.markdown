@@ -2,7 +2,7 @@
 title: Xcode 소소한 팁
 layout: post
 categories: Tips
-tags: Xcode
+tags: xcode
 ---
 
 Xcode 사용하면서 알게 된 소소한 팁들을 소개한다.

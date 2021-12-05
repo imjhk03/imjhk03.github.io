@@ -2,7 +2,7 @@
 title: CocoaPods 팁 (설치부터 오류 해결)
 layout: post
 categories: Tips
-tags: iOS CocoaPods dependency
+tags: iOS cocoaPods dependency
 ---
 
 앱 프로젝트 진행하다 보면, 오픈소스 라이브러리를 사용할 때가 있다. Xcode 프로젝트에 오픈소스 라이브러리를 설치 및 연결하는 방법이 CocoaPods, Carthage 또는 Swift Package Manager를 사용한다. 대표적으로 CocoaPods를 많이 사용하는데, CocoaPods 이용할 때 유용한 팁들을 정리해 보았다.
