@@ -2,7 +2,7 @@
 title: How to launch app not immediately but launch after waiting
 layout: post
 category: Tips
-tags: [Xcode]
+tags: [xcode]
 ---
 
 We usually launch our app immediately when we build and run from Xcode. But there are sometimes we want to launch our app in a specific moment, for example tapping push notifications or testing universal links. We can handle that by selecting "Wait for the executable to be launched" from **Target > Edit Sceme > Run > Launch** settings.

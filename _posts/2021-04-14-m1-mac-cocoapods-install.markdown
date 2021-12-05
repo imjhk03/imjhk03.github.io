@@ -2,7 +2,7 @@
 title: M1 mac에서 cocoapods 설치하기
 layout: post
 author: Joohee Kim
-tags: CocoaPods
+tags: cocoaPods
 ---
 
 M1 맥 미니 구매하고 나서, 놀라운 퍼포먼스와 무소음 환경을 즐기고 있다. Xcode에서 빌드하기 위해, 아직 SPM으로 옮기지 못 한 라이브러리 이용하기 위해서 cocoapods를 설치해야 했다. 하지만 인텔 기반 맥에서 cocoapods 설치하는 방법과 달랐는데, 오늘 이 포스트에서 소개하려고 한다.
