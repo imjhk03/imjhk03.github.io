@@ -1,7 +1,6 @@
 ---
 title: How to hide navigation bar when scrolling
 layout: post
-categories: iOS
 tags: iOS
 ---
 
