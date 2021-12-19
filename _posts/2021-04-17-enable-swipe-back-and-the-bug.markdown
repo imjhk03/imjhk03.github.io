@@ -1,7 +1,6 @@
 ---
 title: Enable swipe back and the bug
 layout: post
-categories: iOS
 tags: iOS
 ---
 

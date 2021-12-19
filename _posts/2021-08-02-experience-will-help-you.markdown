@@ -2,6 +2,7 @@
 title: 개발하면서 겪은 경험들은 언젠가 도움이 될 것이다
 layout: post
 author: Joohee Kim
+categories: Blog
 tags: blog
 ---
 
