@@ -1,7 +1,7 @@
 ---
 title: Xcode 소소한 팁
 layout: post
-categories: Tips
+categories: [Tips, Xcode]
 tags: xcode
 ---
 

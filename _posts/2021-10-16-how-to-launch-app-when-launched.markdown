@@ -1,7 +1,7 @@
 ---
 title: How to launch app not immediately but launch after waiting
 layout: post
-category: Tips
+categories: [Tips, Xcode]
 tags: [xcode]
 ---
 

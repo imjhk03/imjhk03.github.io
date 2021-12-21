@@ -1,13 +1,13 @@
 ---
 title: How to show build times in Xcode
 layout: post
-categories: Tips
+categories: [Tips, Xcode]
 tags: xcode
 ---
 
 You can show how long the project build in Xcode by entering below command in ```Terminal.app```.
 
-```
+```zsh
 defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
 ```
 
