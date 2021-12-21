@@ -1,7 +1,7 @@
 ---
 title: Xcode 시뮬레이터 동영상 녹화하는 방법
 layout: post
-category: Tips
+categories: [Tips, Xcode]
 tags: xcode
 ---
 
