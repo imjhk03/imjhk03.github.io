@@ -1,89 +1,91 @@
 # The layout text of site
 
- # ----- Commons label -----
+# ----- Commons label -----
 
- layout:
-   post: Post
-   category: Category
-   tag: Tag
+layout:
+  post: 포스트
+  category: 카테고리
+  tag: 태그
 
- # The tabs of sidebar
- tabs:
-   # format: <filename_without_extension>: <value>
-   home: Home
-   categories: Categories
-   tags: Tags
-   archives: Archives
-   glossary: Glossary
-   about: About
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: 홈
+  categories: 카테고리
+  tags: 태그
+  archives: 아카이브
+  about: 정보
 
- # the text displayed in the search bar & search results
- search:
-   hint: search
-   cancel: Cancel
+# the text displayed in the search bar & search results
+search:
+  hint: 검색
+  cancel: 취소
+  no_results: 검색 결과가 없습니다.
 
- panel:
-   lastmod: Recent Update
-   trending_tags: Trending Tags
-   toc: Contents
+panel:
+  lastmod: 최근 업데이트
+  trending_tags: 인기 태그
+  toc: 바로가기
 
- #  The liquid date format › http://strftime.net/
- date_format:
-   tooltip: '%b %e, %Y'
-   post:
-     long: '%b %e, %Y'
-     short: '%b %e'
-     archive_month: '%b'
+#  The liquid date format › http://strftime.net/
+date_format:
+  tooltip: '%F, %R %z'
+  post:
+    long: '%Y년 %m월 %d일'
+    short: '%m월 %d일'
+    archive_month: '%b월'
 
- copyright:
-   # Shown at the bottom of the post
-   license:
-     template: This post is licensed under :LICENSE_NAME by the author.
-     name: CC BY 4.0
-     link: https://creativecommons.org/licenses/by/4.0/
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: 이 기사는 저작권자의 :LICENSE_NAME 라이센스를 따릅니다.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
 
-   # Displayed in the footer
-   brief: Some rights reserved.
-   verbose: >-
-     Except where otherwise noted, the blog posts on this site are licensed
-     under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
- meta: Powered by :PLATFORM with :THEME theme.
+  # Displayed in the footer
+  brief: 일부 권리 보유
+  verbose: >-
+    명시되지 않는 한 이 사이트의 블로그 게시물은 작성자의
+    Creative Commons Attribution 4.0 International(CC BY 4.0) 라이선스에 따라 사용이 허가되었습니다.
 
- not_found:
-   statment: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-   hint_template: :HEAD_BAK to try finding it again, or search for it on the :ARCHIVES_PAGE.
-   head_back: Head back Home
-   archives_page: Archives page
+meta: Powered by :PLATFORM with :THEME theme.
 
- # ----- Posts related labels -----
+not_found:
+  statment: 해당 URL은 존재하지 않습니다.
+  hint_template: :HEAD_BAK을 눌러 다시 찾거나 :ARCHIVES_PAGE에서 검색해 주세요.
+  head_back: 홈으로 돌아가기
+  archives_page: 아카이브 페이지
 
- post:
-   published: 'Published on'
-   updated: Updated
-   timeago:
-     day: days ago
-     hour: hours ago
-     minute: minutes ago
-     just_now: just now
-   words: words
-   pageview_measure: views
-   read_time:
-     unit: min
-     prompt: read
-   relate_posts: Further Reading
-   share: Share
-   button:
-     next: Newer
-     previous: Older
-     copy_code:
-      succeed: Copied!
-     share_link:
-      title: Copy link
-      succeed: Link copied successfully!
-   # pinned prompt of posts list on homepage
-   pin_prompt: Pinned
+# ----- Posts related labels -----
 
- # categories page
- categories:
-   category_measure: categories
-   post_measure: posts
+post:
+  written_by: By
+  posted: 게시
+  updated: 업데이트
+  timeago:
+    day: 일 전
+    hour: 시간 전
+    minute: 분 전
+    just_now: 방금
+  words: 단어
+  pageview_measure: 조회
+  read_time:
+    unit: 분
+    prompt: 읽는 시간
+  relate_posts: 관련된 글
+  share: 공유하기
+  button:
+    next: 다음 글
+    previous: 이전 글
+    copy_code:
+      succeed: 복사되었습니다!
+    share_link:
+      title: 링크 복사하기
+      succeed: 링크가 복사되었습니다!
+  # pinned prompt of posts list on homepage
+  pin_prompt: 핀
+
+# categories page
+categories:
+  category_measure: 카테고리
+  post_measure: 포스트
