@@ -59,7 +59,7 @@ end
 <br>
 설치하면서 로그 보고 싶다면 아래 명령어처럼 뒤에 <code>--verbose</code> 붙이면 된다.   
 ```
-$ pod install --verbose   // Show more debugging infromation
+$ pod install --verbose   // Show more debugging information
 ```
 <br>
 # CocoaPods 관련 오류

@@ -8,12 +8,12 @@ tags: iOS
 While typing a text in `UITextField`, we could get the current text with `UITextFieldDelegate`'s Instance Method `textFieldDidChangeSelection(_:)`. But this method only works at iOS 13.0+, so to let other lower iOS version to use this is how it works.
 
 
-### Add a target to UITextField
+## Add a target to UITextField
 ```swift
 textField.addTarget(self, action: #selector(handleTextFieldDidChange), for: .editingChanged)
 ```
 
-### Handle event when UITextField editing changed
+## Handle event when UITextField editing changed
 ```swift
 @objc func handleTextFieldDidChange(_ textField: UITextField) {
     // handle event
@@ -21,7 +21,7 @@ textField.addTarget(self, action: #selector(handleTextFieldDidChange), for: .edi
 }
 ```
 
-### On iOS 13.0+
+## On iOS 13.0+
 But when your app only supports iOS 13.0+, you can use the method below.
 ```swift
 func textFieldDidChangeSelection(_ textField: UITextField) {
