@@ -11,9 +11,9 @@ tags: [xcode]
 
 <table>
   <tr>
-    <td> <img src="/assets/img/2022/01/31/image1.png" alt="메모 앱에 4개의 custom URL scheme이 있다" width="400"> </td>
+    <td> <img src="/assets/img/2022/01/31/image1.PNG" alt="메모 앱에 4개의 custom URL scheme이 있다" width="400"> </td>
 
-    <td> <img src="/assets/img/2022/01/31/image2.png" alt="앱의 일부 화면이 나타나 있는 화면. Custom URL scheme을 지정한 화면 중 하나." width="400"> </td>
+    <td> <img src="/assets/img/2022/01/31/image2.PNG" alt="앱의 일부 화면이 나타나 있는 화면. Custom URL scheme을 지정한 화면 중 하나." width="400"> </td>
    </tr>
 </table>
 

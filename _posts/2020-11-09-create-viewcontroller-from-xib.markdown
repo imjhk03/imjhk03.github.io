@@ -3,7 +3,7 @@ title: How to create a view controller from xib
 layout: post
 author: Joohee Kim
 description: Create xib file for view controller
-tags: iOS
+tags: [iOS, ui development, view controllers, storyboard]
 ---
 
 Creating a new view controller was easy. I've used to create a view controller from Storyboard, and instantiated in code. Although this way is easy, so many view controllers in a Storyboard can increase compiling time. While working with new people in iOS team, there was a way to create a view controller from xib. Let's see how to do it.
