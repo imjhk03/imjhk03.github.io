@@ -1,7 +1,6 @@
 ---
 title: Fork한 Repository Sync하기 (동기화하기)
 layout: post
-categories: Tips
 tags: git
 ---
 
