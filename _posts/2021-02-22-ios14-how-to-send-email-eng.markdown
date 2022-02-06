@@ -2,7 +2,7 @@
 title: How to send emails from iOS 14
 layout: post
 author: Joohee Kim
-tags: swift iOS
+tags: iOS
 ---
 
 With iOS 14, third-party app can be the default email app. This means we may have to support sending email with third-party apps. If the user is not using the default email app and use another app like gmail, we may need to handle to open gmail app to send email. Let's see how to do this.
