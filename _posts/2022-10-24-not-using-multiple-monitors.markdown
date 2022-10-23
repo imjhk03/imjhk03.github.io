@@ -1,5 +1,5 @@
 ---
-title: 듀얼 모니터 보다 하나의 모니터
+title: 듀얼 모니터 보다 싱글 모니터
 layout: post
 tags: []
 ---
