@@ -51,7 +51,10 @@ tags: [workflow, macOS]
         - 경로, 상태 막대 보기
     - 환경설정
         - 폴더 우선 정렬 활성화
-14. 배터리 퍼센트 표시하기
+14. 사용 가능할 때 부드러운 서체 사용 Off (Big Sur 이후로는 터미널 명령어 치고 재시동) 
+```
+defaults -currentHost write -g AppleFontSmoothing -int 0
+```
 15. 필요한 프로그램들을 정리한 노트 기록하기
     - Chrome
     - Xcode
