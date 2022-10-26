@@ -40,31 +40,27 @@ tags: [workflow, macOS]
 10. 트랙패드
     - 탭하여 클릭하기 활성화
     - 이동 속도 조절
-11. 날짜 및 시간
-    - 날짜 보기 활성화
-12. 공유
+11. 공유
     - 컴퓨터 이름 변경
         - 이렇게 하면 터미널에서 컴퓨터 이름이 나타난다
         ![터미널에 내 컴퓨터 이름 변경하기](/assets/img/2020/10/02/image4.png)
-13. Finder
+12. Finder
     - 보기
         - 경로, 상태 막대 보기
     - 환경설정
         - 폴더 우선 정렬 활성화
-14. 사용 가능할 때 부드러운 서체 사용 Off (Big Sur 이후로는 터미널 명령어 치고 재시동) 
+13. 사용 가능할 때 부드러운 서체 사용 Off (Big Sur 이후로는 터미널 명령어 치고 재시동) 
 ```
 defaults -currentHost write -g AppleFontSmoothing -int 0
 ```
-15. 필요한 프로그램들을 정리한 노트 기록하기
+14. 필요한 프로그램들을 정리한 노트 기록하기
     - Chrome
     - Xcode
     - Apple Developer
-    - Github Desktop
+    - Git Fork
     - VSCode
     - Notion
     - Twitter
-    - Dropbox
-        - 배경화면 폴더 연동
     - Fig
     - Spotify
     - Spark Email App
