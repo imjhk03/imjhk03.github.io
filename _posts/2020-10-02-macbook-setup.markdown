@@ -37,6 +37,10 @@ tags: [workflow, macOS]
     - 단축키
         - 이전 입력 소스 선택&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⌘스페이스
         - Spotlight 검색 보기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⌥스페이스
+    - 텍스트
+        - 모든 체크박스 해제하기
+        
+        ![키보드 텍스트 모든 체크박스 해제하기](/assets/img/2020/10/02/image6.png)
 10. 트랙패드
     - 탭하여 클릭하기 활성화
     - 이동 속도 조절
@@ -64,3 +68,7 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
     - Fig
     - Spotify
     - Spark Email App
+
+15. 개발에 필요한 툴 설치하기
+    - homebrew
+    - Mint or SwiftLint
