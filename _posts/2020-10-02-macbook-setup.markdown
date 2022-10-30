@@ -70,5 +70,7 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
     - Spark Email App
 
 15. 개발에 필요한 툴 설치하기
+    - Xcode 테마 설치하기
+    - Xcode CodeSnippets 추가하기
     - homebrew
     - Mint or SwiftLint
