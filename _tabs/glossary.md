@@ -16,6 +16,9 @@ This is a glossary of common programming and swift terms.
 ## I
 * **IDE**: Integrated Development Environment
 
+## P
+* **PR**: Pull Request, 코드 베이스에서 내가 작업한 변동사항(추가, 삭제, 수정 등)을 코드 베이스에 포함해달라고 보내는 요청
+
 ## R
 * **RAM**: Random Access Memory, comnputer's main memory
 
