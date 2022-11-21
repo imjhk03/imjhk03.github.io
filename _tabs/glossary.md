@@ -25,6 +25,9 @@ This is a glossary of common programming and swift terms.
 ## S
 * **SDK**: Software Development Kit
 
+## T
+* **Traffic**: 트래픽, 서버를 통해 일정 시간 동안 서비스 사용자에게 전송하는 데이터의 양. 트래픽이 증가해(서비스 접속 사용자가 늘거나 세션마다 담긴 데이터가 크면) 서버 부하가 나지 않도록 잘 관리해야 함.
+
 ## U
 * **UI**: User Interface, 사용자가 접하는 디자인. 제품을 어떤 방식으로 사용하도록 만드는 시각화 작업.
 * **URI**: Uniform Resource Identifier (식별자)
