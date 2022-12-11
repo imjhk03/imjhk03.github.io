@@ -16,6 +16,9 @@ This is a glossary of common programming and swift terms.
 ## I
 * **IDE**: Integrated Development Environment
 
+## L
+* **Legacy System**: 개발에서 레거시(legacy)란 과거에 개발되어 지금도 쓰는 낡은 소스 코드나 시스템을 뜻함.
+
 ## P
 * **PR**: Pull Request, 코드 베이스에서 내가 작업한 변동사항(추가, 삭제, 수정 등)을 코드 베이스에 포함해달라고 보내는 요청
 
@@ -26,6 +29,7 @@ This is a glossary of common programming and swift terms.
 * **SDK**: Software Development Kit
 
 ## T
+* **Technical Debt**: 일정과 상황에 따라서 기록과 문서를 남기지 않거나, 코딩 컨벤션에 알맞지 않거나, 유지보수하기 어려운 레거시 코드 등 여러 가지 문제점이 누적되는 것을 기술 부채라고 함.
 * **Traffic**: 트래픽, 서버를 통해 일정 시간 동안 서비스 사용자에게 전송하는 데이터의 양. 트래픽이 증가해(서비스 접속 사용자가 늘거나 세션마다 담긴 데이터가 크면) 서버 부하가 나지 않도록 잘 관리해야 함.
 
 ## U
