@@ -14,6 +14,7 @@ This is a glossary of common programming and swift terms.
 * **DR**: Disaster Recovery, 재해복구프로젝트
 
 ## I
+* **ID**: Individual Contributor
 * **IDE**: Integrated Development Environment
 
 ## L
