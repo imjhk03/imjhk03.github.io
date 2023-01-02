@@ -25,6 +25,7 @@ This is a glossary of common programming and swift terms.
 
 ## R
 * **RAM**: Random Access Memory, comnputer's main memory
+* **RTFM**: ["read the fucking manual"](https://en.wikipedia.org/wiki/RTFM)
 
 ## S
 * **SDK**: Software Development Kit
