@@ -101,8 +101,8 @@ comments:
    giscus:
     repo: imjhk03/imjhk03.github.io
     repo_id: MDEwOlJlcG9zaXRvcnkzNDI2MzQ3MDQ=
-    category:
-    category_id:
+    category: Announcements
+    category_id: DIC_kwDOFGww0M4CSRnS
     mapping:          # optional, default to 'pathname'
     input_position:   # optional, default to 'bottom'
     lang:             # optional, default to the value of `site.lang`
