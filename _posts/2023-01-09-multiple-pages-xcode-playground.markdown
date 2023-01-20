@@ -8,7 +8,7 @@ tags: [swift playground]
 
 ## Playground Page 생성하기
 
-Xcode에서 플레이그라운 만들고 나서 ```File > New > Playground Page```를 선택하면 하나의 플레이그라운드 프로젝트 안에 'Untitled Page' 와 'Untitled Page 2'가 생기는 것을 확인할 수 있다.
+Xcode에서 플레이그라운드를 만들고 나서 ```File > New > Playground Page```를 선택하면 하나의 플레이그라운드 프로젝트 안에 'Untitled Page' 와 'Untitled Page 2'가 생기는 것을 확인할 수 있다.
 
 ![Xcode File > New > Playground Page 메뉴를 보여주는 스크린샷](image1.png)
 
