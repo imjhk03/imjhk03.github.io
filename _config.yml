@@ -114,12 +114,9 @@ assets:
     # specify the Jekyll environment, empty means both
     # only works if 'assets.self_host.enabled' is 'true'
     env:          # [development|production]
-#  assets:
-#   self_host:
-#     enabled:      # boolean, keep empty means false
-#     # specify the Jekyll environment, empty means both
-#     # only works if `assets.self_host.enabled` is 'true'
-#     env:          # [development|production]
+
+pwa:
+  enabled: true   # the option for PWA feature
 
 paginate: 10
 
