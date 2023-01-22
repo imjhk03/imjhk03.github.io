@@ -39,4 +39,3 @@ This is a glossary of common programming and swift terms.
 * **URL**: Uniform Resource Locator (위치)
 * **URN**: Uniform Resource Name (이름)
 * **UX**: User eXperience, 사용자 경험. 어떤 제품이나 서비스 등을 사용하면서 느끼는 경험(반응, 행동 등)
-
