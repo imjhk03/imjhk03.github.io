@@ -23,7 +23,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  buind:
+  build:
     runs-on: ubuntu-latest
 
     steps:
