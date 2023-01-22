@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 5.3", ">= 5.3.2"
+gem "jekyll-theme-chirpy", "~> 5.4", ">= 5.4.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -23,5 +23,3 @@ end
 
 # # # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
-
-gem "webrick", "~> 1.7"

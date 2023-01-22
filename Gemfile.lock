@@ -114,12 +114,11 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer (~> 3.18)
-  jekyll-theme-chirpy (~> 5.3, >= 5.3.2)
+  jekyll-theme-chirpy (~> 5.4, >= 5.4.0)
   jekyll-twitter-plugin
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
-  webrick (~> 1.7)
 
 BUNDLED WITH
    2.3.6
