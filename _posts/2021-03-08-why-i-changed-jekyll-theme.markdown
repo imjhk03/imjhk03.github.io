@@ -2,8 +2,8 @@
 title: jekyll 블로그 테마를 바꾼 이유
 layout: post
 author: Joohee Kim
-categories: Blog
-tags: blog
+category: [Blog]
+tags: [blog, jekyll]
 ---
 
 # 기술 블로그 시작

@@ -2,8 +2,6 @@
 title: 개발하면서 겪은 경험들은 언젠가 도움이 될 것이다
 layout: post
 author: Joohee Kim
-categories: Blog
-tags: blog
 ---
 
 며칠 전에 "[Software Engineering Isn't Magic](http://amro.co/software-engineering-isn-t-magic)"이라는 글을 읽으면서 많이 공감되었다. 최근에 비슷한 경험도 있어서 개발에 대한 나의 하나의 시각에 대해서 글을 쓰게 되었다. 나도 아직 연차가 많지 않다고 느끼지만, 조금이라도 내 경험을 통해서 신입 개발자들에게 응원이 되었으면 좋겠다.
