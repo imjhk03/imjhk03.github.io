@@ -1,9 +1,9 @@
 ---
 title: 깃허브(GitHub) 블로그 구축하기
-layout: post
-author: Joohee Kim
 description: GitHub Page 구축하면서 삽질한 이야기
-tags: blog
+layout: post
+category: [Blog]
+tags: [blog, jekyll]
 ---
 
 개발자들이라면 한 번이라도 봤을 만한 블로그 주소는 {username}.github.io 일 것이다. 개인적으로 깃허브 블로그 페이지 만들면서 고생해서 간단하고 최소한의 작업으로 구축하는 방법을 기록하기 위해 포스트를 쓰기로 했다.

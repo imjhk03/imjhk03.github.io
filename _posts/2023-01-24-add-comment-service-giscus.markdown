@@ -1,9 +1,9 @@
 ---
 title: 블로그에 댓글 기능 추가하기, Giscus
 layout: post
-category: [Blog]
 img_path: /assets/img/2023/01/24/
-tags: [jekyll]
+category: [Blog]
+tags: [blog, jekyll]
 ---
 
 오랜만에 사용하는 jekyll 테마 업데이트하면서 튜토리얼 글을 보니깐 댓글을 쓸 수 있는 것을 보았다. 보니깐 Giscus comments를 지원한 것이었다. 원래는 댓글 기능에 대해서 생각하지 않았는데, 신기하고 jekyll 테마가 지원하는 것을 하나씩 추가해 보는 게 재밌을 것 같아서 적용해 보았다. 처음으로 사용한 기능이어서 어떻게 적용했는지 간략하게 작성했다.
