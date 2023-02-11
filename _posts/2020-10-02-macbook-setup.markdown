@@ -58,13 +58,15 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
 13. Spotlight 검색 카테고리 일부만 체크하기
 ![터미널에 내 컴퓨터 이름 변경하기](/assets/img/2023/01/20/image7.png)
 14. 필요한 프로그램들을 정리한 노트 기록하기
-    - Chrome
+    - Brave Browser
     - Xcode
     - Apple Developer
     - Git Fork
     - VSCode
     - Notion
-    - Twitter
+    - Craft
+    - Todoist
+    - Obsidian
     - Fig
     - Spotify
     - Spark Email App
