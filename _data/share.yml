@@ -2,18 +2,15 @@
 #  Icons from <https://fontawesome.com/>
 
 platforms:
-  -
-    type: Twitter
+  - type: Twitter
     icon: "fab fa-twitter"
     link: "https://twitter.com/intent/tweet?text=TITLE&url=URL&via=_jooheekim_"
   
-  # -
-  #   type: Facebook
+  # - type: Facebook
   #   icon: "fab fa-facebook-square"
   #   link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
 
   # Uncomment below if you need to.
-  # -
-  #   type: Linkedin
+  # - type: Linkedin
   #   icon: "fab fa-linkedin"
   #   link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
