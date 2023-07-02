@@ -19,6 +19,9 @@ This is a glossary of common programming and swift terms.
 ## L
 * **Legacy System**: 개발에서 레거시(legacy)란 과거에 개발되어 지금도 쓰는 낡은 소스 코드나 시스템을 뜻함.
 
+## M
+* **MVP**: Minimum Viable Product, 최소한의 실행 가능한 제품, 팀이 최소한의 노력으로 고객에 대한 학습을 최대한 수집할 수 있는 버전.
+
 ## P
 * **PR**: Pull Request, 코드 베이스에서 내가 작업한 변동사항(추가, 삭제, 수정 등)을 코드 베이스에 포함해달라고 보내는 요청
 
