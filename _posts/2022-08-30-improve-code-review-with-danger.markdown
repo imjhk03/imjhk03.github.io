@@ -57,7 +57,7 @@ jobs:
 터미널을 이용해서 Dangerfile 파일을 생성하고 edit하는 명령어를 사용하면 된다. 아래와 같이 먼저 brew로 Danger를 설치한다.
 
 ```bash
-brew install danger/tap/danter-swift
+brew install danger/tap/danger-swift
 ```
 
 그리고 Dangerfile를 추가할 프로젝트 루트 경로에서 아래 터미널로 명령어를 친다. 아래 명령어를 치면 터미널에서 기다렸다가 Xcode로 Dangerfile을 생성하거나 편집하도록 열게 된다. 이때 터미널을 계속 열어둔다.
