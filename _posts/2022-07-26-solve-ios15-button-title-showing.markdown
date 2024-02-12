@@ -15,4 +15,4 @@ Xib로 `UIButton`을 만들면 보통 `Type`을 `Custom`으로 해서 만드는 
 
 Xib 파일을 코드 상으로 확인했을 때, ```title="Button"```으로 되어 있는 게 없는지 체크하는 방법도 있다.
 
-<img src="/assets/img/2022/07/26/image3.png"/>
+<img src="/assets/img/2022/07/26/image3.png" alt="Code difference image from xib file"/>
