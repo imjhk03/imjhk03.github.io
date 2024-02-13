@@ -58,5 +58,5 @@ $ bundle exec jekyll serve
 
 [githubpage]: https://pages.github.com
 [jekyllPage]: https://jekyllrb.com
-[jekyllThemes]: http://jekyllthemes.org
+[Themes | Jekyll]: https://jekyllrb.com/docs/themes/
 [textureTheme]: https://github.com/thelehhman/texture
