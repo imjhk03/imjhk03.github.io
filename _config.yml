@@ -3,16 +3,12 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
-baseurl: ""
-
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
 lang: ko-KR
 
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone:
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
@@ -24,7 +20,8 @@ tagline: Create something, craft well # it will display as the sub-title
 description: >- # used by seo meta and the atom feed
   A minimal, portfolio, personal blog.
 
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+# fill in the protocol & hostname for your site.
+# e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: 'https://imjhk03.github.io'
 
 github:
@@ -114,6 +111,9 @@ pwa:
 
 paginate: 10
 
+# The base URL of your site
+baseurl: ""
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
@@ -178,12 +178,11 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
+  - docs
   - tools
   - README.md
-  - CHANGELOG.md
   - LICENSE
   - rollup.config.js
-  - node_modules
   - package*.json
 
 jekyll-archives:
