@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 6.3", ">= 6.3.1"
+gem "jekyll-theme-chirpy", "~> 6.4", ">= 6.4.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
