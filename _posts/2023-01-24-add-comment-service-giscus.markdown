@@ -1,7 +1,6 @@
 ---
 title: 블로그에 댓글 기능 추가하기, Giscus
 layout: post
-img_path: /assets/img/2023/01/24/
 category: [Blog]
 tags: [blog, jekyll]
 ---
@@ -14,7 +13,7 @@ tags: [blog, jekyll]
 # 댓글 기능
 내가 사용하는 jekyll 테마인 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)는 5.1.0 버전부터 giscus 추가해서 총 3개의 댓글 서비스를 지원하고 있다. [disqus](https://disqus.com/), [utterances](https://utteranc.es/), [giscus](https://github.com/giscus/giscus) 이렇게 3개이다.
 
-![Chirpy 튜토리얼 블로그 글에 있는 댓글 기능, giscus](image1.png)
+![Chirpy 튜토리얼 블로그 글에 있는 댓글 기능, giscus](/assets/img/2023/01/24/image1.png)
 
 3개 중에 giscus를 선택한 이유는 가장 최근에 지원한 댓글 기능이고, 조금 더 찾아보니깐 utterances는 github issues를 사용해서 댓글을 다는 거고 giscus는 github discussion을 사용해서 댓글을 단다. 이슈보다는 discussion이 조금 더 리파지토리 관리가 편할 것 같아서 적용했다. 물론 둘 다 깃헙 계정이 있어야 댓글을 달 수 있는데, 내 블로그는 주로 개발자들이 읽을 것 같고, 보통 깃헙 계정이 있지 않을까 해서 큰 어려움이 없을 것 같았다.
 
@@ -27,21 +26,21 @@ tags: [blog, jekyll]
 
 [Giscus 사이트](https://giscus.app)로 가서 giscus 설정에 필요한 정보들을 입력하면 된다. 그러면 giscus 설정에 필요한 값들을 보여주는데, 이 값들을 jekyll 테마에 맞게 반영하면 된다.
 
-![Giscus 사이트에 있는 설정 화면. 언어, 저장소 주소, 페이지와 Discussions 연결에 대한 설정이 나와 있다.](image2.png)
+![Giscus 사이트에 있는 설정 화면. 언어, 저장소 주소, 페이지와 Discussions 연결에 대한 설정이 나와 있다.](/assets/img/2023/01/24/image2.png)
 
 위에서 사전 조건이 맞는다면 저장소 입력하는 공간에 저장소 주소를 입력한다. 페이지와 Discussions 연결을 선택하면 되는데, 기본값으로 경로가 선택되어 있다.
 
 Discussion 카테고리도 선택해야 댓글이 정상적으로 discussion에 작성이 되는데, 카테고리 유형은 Announcements 유형으로 하는 것을 권장한다고 되어 있다. 나는 여기서 Comments라는 카테고리 새로 만들어서 적용했다.
 
-![Dicsussion 카테고리 설정 화면](image3.png)
+![Dicsussion 카테고리 설정 화면](/assets/img/2023/01/24/image3.png)
 
 기타 기능이나 테마도 선택할 수 있고, 설정하면 아래와 같이 웹 사이트 템플릿에 적용할 수 있는 script 태그가 나타난다.
 
-![설정한 내용들이 나와 있는 script 태그 코드가 나타난다.](image4.png)
+![설정한 내용들이 나와 있는 script 태그 코드가 나타난다.](/assets/img/2023/01/24/image4.png)
 
 적용하는 템플릿에 알맞게 적용하면 되고, 나는 여기서 Chirpy 테마에서 필요한 값들만 적용해서 반영했다.
 
-![블로그에 댓글 기능 추가한 화면](image5.png)
+![블로그에 댓글 기능 추가한 화면](/assets/img/2023/01/24/image5.png)
 
 # 마치며
 사용하는 jekyll 테마가 댓글 기능을 지원해서 적용해 보았는데, giscus라는 서비스도 알게 되었다. 앞으로 jekyll 테마에서 지원하는 기능들을 하나씩 적용하면서 블로그를 조금 더 가꾸려고 한다.
