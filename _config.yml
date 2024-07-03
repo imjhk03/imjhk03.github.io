@@ -195,6 +195,11 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
+  - scope:
+      path: /work-music/
+    values:
+      layout: post
+      comments: false
 
 sass:
   style: compressed
