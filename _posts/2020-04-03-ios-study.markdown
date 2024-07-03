@@ -5,89 +5,81 @@ categories: Tips
 tags: iOS
 ---
 
-해당 포스트는 개인적으로 iOS 공부할 때 도움이 되는 책, 인터넷 자료, 강의 등을 모아놓은 글입니다. 개인에 따라 도움이 되는 자료일 수 있고, 아닐 수 있기 때문에 가볍게 참고용으로 보시면 좋을 것 같습니다. :)   
+## Overview
+해당 포스트는 개인적으로 iOS 공부할 때 도움이 된 리소스들을 모아놓은 글입니다. 개인에 따라 도움이 되는 자료일 수 있고, 아닐 수 있기 때문에 가볍게 참고용으로 보시면 좋을 것 같습니다. ☺️
 <br>
 
-# 책, 인터넷 자료, 강의
+## July 2024
+* 애플 개발자 공식 사이트 추가하면서 글 전체적으로 최신 정보 반영했다.
 
-### 1. 책
-
-- Intro to App Development with Swift
-    영어로 되어 있지만, Apple에서 만든 책으로 Swift Playground을 이용해서 문법과 기본적인 동작을 배우고,
-    앱을 개발할 수 있는 내용도 있음. 한 챕터 끝날 때마다 퀴즈를 풀어 복습할 수 있음.
-
-    [Intro to App Development with Swift](https://books.apple.com/us/book/intro-to-app-development-with-swift/id1118575552){:target="_blank"}
+### 애플 개발자 공식 사이트
+스위프트 공부 시작은 애플 개발자 공식 사이트부터 시작하면 좋다.<br>
+[Swift - Apple Developer](https://developer.apple.com/swift/)
 
 
-- raywenderlich 책 시리즈   
-    영어로 되어 있지만, 꽤 많은 iOS 및 안드로이드 개발자들이 책을 사서 공부함   
-    분야별로 나뉘어져 있어, 필요한 것만 구입하여 볼 수 있음   
+WWDC에서 새로운 Swift 내용을 정리하는 글이 있는데, 매년 새로운 것들을 보기에 좋다. 이번 WWDC24 내용이 담긴 스위프트 가이드 문서가 있다.<br>
+[WWDC24 Swift guide - Discover - Apple Developer](https://developer.apple.com/news/?id=0ofaehl4)
 
-    [raywenderlich.com Store](https://store.raywenderlich.com){:target="_blank"}
 
-### 2. 인터넷 자료
+Swift Pathway는 스위프트 공부에 필요한 동영상, 문서, 리소스를 간단하고 쉽게 탐색할 수 있는 모음이다.<br>
+[Swift Pathway - Swift - Apple Developer](https://developer.apple.com/swift/pathway/)
 
-- 100 Days of Swift (무료)   
-    100일 동안 매일 스위프트 공부할 수 있는 커리큐럼   
+
+애플에서 제공하는 문서, 동영상 및 튜토리얼을 한 곳에서 볼 수 있는 리소스 사이트도 있다. 특히 튜토리얼 모음이 있어서 공부하고 싶은 방향에 맞춰서 튜토리얼 대로 앱 개발하면서 공부할 수 있다.<br>
+[Swift Resources - Apple Developer](https://developer.apple.com/swift/resources/)
+
+
+[스위프트 프로그래밍 언어 사이트](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/#language-guide)와 [스위프트 표준 라이브러리 사이트](https://developer.apple.com/documentation/swift/swift-standard-library/)도 참고하면 좋다.
+
+### 사이트
+- [Hacking with Swift – learn to code iPhone and iPad apps with free Swift tutorials](https://www.hackingwithswift.com){:target="_blank"}<br>
+    Paul Hudson이 만든 'Hacking with Swift' 사이트에서 실용적인 실습 프로젝트를 통해 스위프트 및 iOS 개발을 가르치기 위해 고안된 종합적인 책과 리소스 사이트이다.
+    이 시리즈는 초급자부터 고급 개발자까지 다양한 수준의 학습자에게 적합하다.
+
+- [Kodeco](https://www.kodeco.com/){:target="_blank"}<br>
+    예전 raywenderlich 이름에서 Kodeco로 이름 변경한 모바일 개발에 중점을 둔 선도적인 온라인 학습 플랫폼으로,
+    iOS, Andriod 및 Flutter 개발자를 위한 포괄적인 리소스를 제공한다.
+
+### 블로그 및 뉴스레터
+- 구글 검색하다 보면 자주 만나게 되는 iOS 개발 블로그들
+    - [ZeddiOS](https://zeddios.tistory.com/){:target="_blank"}
+    - [민소네](https://minsone.github.io/){:target="_blank"}
+    - [김종권의 iOS 앱 개발 알아가기](https://ios-development.tistory.com/){:target="_blank"}<br><br>
+
+- [레츠스위프트](https://page.stibee.com/subscriptions/58654){:target="_blank"}<br>
+    매월 둘째, 넷째주 일요일에 김정님께서 iOS와 Swift 개발자 커뮤니티를 위한 정보 공유하는 뉴스레터를 발행하고 있다.
+    이 뉴스레터는 국내외 애플 개발자 관련 최신 블로그, 발표자료, 소식 등을 수집하여 제공한다.
+
+- [iOS Dev Weekly](https://iosdevweekly.com/){:target="_blank"}<br>
+    매주 금요일마다 발행되는 뉴스레터. Dave Verwer가 매주 엄선한 최고의 iOS 개발 링크를 제공하는 인기 뉴스레터이다.
+
+- [Swiftlee](https://www.avanderlee.com/){:target="_blank"}<br>
+    매주 화요일마다 뉴스레터와 함께 블로그 글이 올라온다. 뉴스레터도 같이 운영하고 있어 다양한 iOS 개발 커뮤니티 소식을 접할 수 있다.
+
+### 책
+- [The Swift Programming Language book](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/){:target="_blank"}<br>
+    애플에서 스위프트 프로그래밍 언어 책을 사이트로 만들어서 운영하고 있다.
+    기본적인 문법부터 깊이 있는 내용이 있어 스위프트 문법을 공부하고 이 사이트에서 깊이 있는 내용을 더 읽으면 좋다.
+
+- [Hacking with Swift Books](https://www.hackingwithswift.com/store){:target="_blank"}<br>
+    Paul Hudson이 만든 'Hacking with Swift' 사이트에서 스위프트 및 iOS 개발 학습을 위한 종합적인 책과 리소스 모음을 제공한다.
+
+- [Kodeco iOS & Swift Books](https://www.kodeco.com/ios/books){:target="_blank"}<br>
+    Kodeco 사이트에서 프로그래밍 언어 및 분야/기술별로 나뉘어져 있어, 필요한 것만 구입하여 볼 수 있다.
+
+### 강의
+- [100 Days of Swift](https://www.hackingwithswift.com/100){:target="_blank"} / [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui){:target="_blank"}<br>
+    100일 동안 매일 스위프트 공부할 수 있는 커리큐럼
     스위프트 문법부터 시작해서 예제 프로젝트까지 다양하게 할 수 있음   
-    100일 동안 꾸준히 공부할 수 있게 양이 조절 되어 있음   
-    **단, 영어로 되어 있음**
+    100일 동안 꾸준히 공부할 수 있게 양이 조절 되어 있음
 
-    [100 Days of Swift - Hacking with Swift](https://www.hackingwithswift.com/100){:target="_blank"}
+- [Homepage | Sean Allen](https://seanallen.teachable.com/){:target="_blank"}<br>
+    개인 예제 프로젝트 형식으로 강의가 제공되어 있다. 실제로 프로젝트 개발하면서 기술들을 배우는 장점이 있다.
+    SwiftUI부터 시작해서 다양한 기술들을 앱 개발하면서 터득할 수 있다.
+    유료와 무료 강의가 있어 필요에 따라 수강하면 된다.
 
-- 유튜브 채널 추천
-    - Lets Build That App   
-        유튜브, 페이스북, 인스타그램 등 다양한 앱들을 만들어보는 프로젝트 시리즈로 만들어 유튜브 채널에 올림   
-        짤막하게 기능 구현하는 동영상도 있어 필요한 부분만 찾아 봐도 무방   
-        [유료로 된 강의를 올리는 사이트](https://www.letsbuildthatapp.com){:target="_blank"} 있어, 필요한 기능들이 있는 앱 강의 구입하여 수강해도 좋음   
-        **단, 영어로 되어 있음**
-
-        [Lets Build That App](https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI92mA){:target="_blank"}
-
-### 3. 강의
-
-- GitHub Followers <b><font color="red">(유료, $149)</font></b>   
-    개인 예제 프로젝트로, 회사 입사하기 전 과제 형태로 준비되어 있어 입사할 때 도움이 될 것   
-    최신 기술부터 시작해서 네트워킹, 검색 UI, CollectionView 등 다양하게 화면을 작업 및 기능 구현할 수 있음   
-    제일 추천하는 강의   
-
-    **단, 영어로 되어 있음**
-
-    [Sean Allen](https://seanallen.teachable.com){:target="_blank"}
-
-- LBTA 강의 <b><font color="red">(유료, 프로젝트별로 가격이 다름)</font></b>    
-    현재 진행하는 프로젝트의 특성에 맞게 구매하여 수강해도 좋음   
-    다양한 기능들을 공부할 수 있고, 최근에는 NodeJS 등 풀 스택 강의도 있음   
-    **단, 영어로 되어 있음**   
-
-    [Courses](https://www.letsbuildthatapp.com){:target="_blank"}
-
-<br>
-
-# 기타
-
-## 커뮤니티
-
-- Swift Korea 페이스북
-
-    [Swift Korea](https://www.facebook.com/groups/swiftkor/){:target="_blank"}
-
-## 컨퍼런스
-
-- WWDC
-
-    [WWDC21](https://developer.apple.com/wwdc21/){:target="_blank"}
-
-## 웹사이트
-
-- Hacking with Swift
-
-    [Hacking with Swift - learn to code iPhone and iPad apps with free Swift 5.1 tutorials](https://www.hackingwithswift.com){:target="_blank"}
-
-- Raywenderlich
-
-    [raywenderlich.com](https://www.raywenderlich.com){:target="_blank"}
-
-- NSHipster
-
-    [NSHipster](https://nshipster.com){:target="_blank"}
+- [Lets Build That App](https://www.letsbuildthatapp.com/){:target="_blank"}<br>
+    메시지, 앱 스토어, 인스타그램 등 다양한 실제 앱들을 만들어보는 강의들로 구성되어 있다.
+    현재 진행하는 프로젝트의 특성에 맞게 구매하여 수강해도 좋다.
+    업데이트 빈도가 길지만 그래도 직접 강의 들으면서 개인적으로 만족도가 좋았다.
+    업로드된 최신 영상이 없지만 [유튜브 채널](https://www.youtube.com/letsbuildthatapp){:target="_blank"}도 있어 강의 외 세부적인 짤막한 영상들도 볼 수 있다.
