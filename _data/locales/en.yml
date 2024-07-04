@@ -6,6 +6,7 @@
    post: Post
    category: Category
    tag: Tag
+   nothing: Work Music
 
  # The tabs of sidebar
  tabs:
@@ -14,7 +15,6 @@
    categories: Categories
    tags: Tags
    archives: Archives
-   glossary: Glossary
    about: About
 
  # the text displayed in the search bar & search results
