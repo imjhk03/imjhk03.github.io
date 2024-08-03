@@ -1,8 +1,8 @@
 ---
 title: How to Join an Array of Strings
 layout: post
-categories: Tips
-tags: swift array
+categories: [Tips]
+tags: [arrays]
 ---
 
 Using `joined()` method, we can merge an array of strings to a single string. We can add a separator too.
