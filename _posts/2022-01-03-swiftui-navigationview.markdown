@@ -1,7 +1,7 @@
 ---
 title: SwiftUI에서 NavigationView 사용하기
 layout: post
-tags: swiftui
+tags: [swiftui, navigation]
 ---
 
 ## NavigationView

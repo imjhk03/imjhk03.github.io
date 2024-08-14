@@ -3,7 +3,7 @@ title: 깃허브(GitHub) 블로그 jekyll 테마 커스텀(custom)하기
 description: Jekyll Theme 프로젝트를 fork해서 커스텀하기
 layout: post
 date: '2019-11-17 22:30:00'
-category: [Blog]
+categories: [Blog]
 tags: [blog, jekyll]
 ---
 

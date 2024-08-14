@@ -1,7 +1,7 @@
 ---
 title: git switch 명령어
 layout: post
-category: [Git]
+categories: [Git]
 tags: [git]
 ---
 

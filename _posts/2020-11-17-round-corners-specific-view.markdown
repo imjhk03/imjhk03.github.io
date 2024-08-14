@@ -3,8 +3,8 @@ title: How to round corners specifically on a UIView
 layout: post
 author: Joohee Kim
 description: How to round corners specifically on a UIView
-categories: Tips
-tags: [iOS, ui development]
+categories: [Tips]
+tags: [uikit, ui development]
 ---
 
 To round a corner on a UIView, you can set the layer's **`cornerRadius`** value. Simply use it like this:

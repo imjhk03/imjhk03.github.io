@@ -1,7 +1,7 @@
 ---
 title: How to hide navigation bar when scrolling
 layout: post
-tags: iOS
+tags: [uikit]
 ---
 
 In UINavigationController, there is a property called `hidesBarsOnSwipe` which hides its bars when scrolling or swipe down.

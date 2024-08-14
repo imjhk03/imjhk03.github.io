@@ -1,6 +1,7 @@
 ---
 title: Xcode Playground에서 attach failed invalid argument 에러 해결하는 방법
 layout: post
+categories: [Problem Solving]
 tags: [swift playground, developer tools]
 ---
 

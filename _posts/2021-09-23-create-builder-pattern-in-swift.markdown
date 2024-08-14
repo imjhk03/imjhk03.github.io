@@ -1,7 +1,7 @@
 ---
 title: 스위프트에서 빌더 패턴 구현해보기
 layout: post
-tags: [architecture, design pattern]
+tags: [architecture, design patterns, builder pattern]
 ---
 
 최근에 회사에서 커스텀 해서 사용하는 뷰를 사용해야 하는 경우가 생겼는데, 정해진 규칙이 있고 다양하게 조립하여 뷰를 그릴 수 있다고 판단하여 builder pattern(이하 빌더 패턴)으로 만들어 구현해 보았다. 회사 직원들도 잘 만들었다고 했고, 직접 사용하면서 불편한 점이 없다고 해서 다행이라고 생각했다. 다른 부분에도 적용하여 만들어보고 싶어, 혼자 공부했던 것을 정리할 겸 글을 쓰게 되었다. 빌더 패턴이 무엇인지, 어떻게 만들어 사용하면 좋을지 소개하겠다.

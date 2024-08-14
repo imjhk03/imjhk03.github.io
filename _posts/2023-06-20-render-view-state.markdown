@@ -1,11 +1,11 @@
 ---
 title: 화면 상태에 따라서 View가 그리는 작업, Render
 layout: post
-tags: [architecture, design patterns, view]
+tags: [code structure, design patterns]
+image:
+  path: https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb
+  alt: Image from Unsplash
 ---
-
-![https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb](https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb)
-_Image from Unsplash_ 
 
 MVVM 패턴과 view와 view model을 바인딩 하는 부분을 rxswift를 사용하면서 편리함을 많이 느꼈습니다. 네트워크 호출해서 받은 데이터를 화면에 뿌릴 때, 혹은 화면에서 user interaction을 받았을 때 등의 처리를 간결하게 처리할 수 있는 것을 배웠습니다. 구독하는 개념이 다소 생소했고 아주 가볍게만 써보지만, 많이들 사용한다는 rxswift에 대해서 새로운 것을 배울 수 있어서 재밌었습니다. 가끔 rx를 바인딩 하는 것을 까먹을 때가 있었지만, 그 부분만 잘 기억하면 잘 활용할 수 있었습니다.
 

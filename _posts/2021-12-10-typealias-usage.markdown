@@ -1,7 +1,7 @@
 ---
 title: 스위프트 typealias 활용하기
 layout: post
-tags: [swift]
+tags: [type aliases]
 ---
 
 스위프트에 있는 `typealias`는 기존에 존재하는 타입을 다른 이름으로 정의할 때 사용합니다. 상황에 따라서 기존에 있는 타입을 조금 더 적합한 이름으로 사용할 때 유용합니다. 예를 들어, 가격이 Int 타입인 상품 구조체struct가 있습니다.

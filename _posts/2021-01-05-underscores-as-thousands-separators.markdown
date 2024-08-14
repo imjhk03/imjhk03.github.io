@@ -1,8 +1,7 @@
 ---
 title: Underscores as thousands separators
 layout: post
-categories: Tips
-tags: swift
+tags: [swift]
 ---
 
 When using large ```Int``` numbers, we can use underscores as thousands separators to make it easier to read.

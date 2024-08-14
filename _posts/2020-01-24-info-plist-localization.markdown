@@ -2,7 +2,7 @@
 title: Info.plist Localization
 layout: post
 description: Localize Info.plist for description and application name, etc.
-tags: iOS localize
+tags: [localization]
 ---
 
 Recently, one of our app got rejected by App Store Connect, because it needed to update `NSPhotoLibraryUsageDescription` content. There was not enough reason why our app need to access user's photo library. While solving the issue, I wanted to add localized message for it. This post will show how to localize of Info.plist.

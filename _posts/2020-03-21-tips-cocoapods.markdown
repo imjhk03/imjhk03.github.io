@@ -1,7 +1,7 @@
 ---
 title: CocoaPods 팁 (설치부터 오류 해결)
 layout: post
-categories: Tips
+categories: [Tips]
 tags: [cocoaPods]
 ---
 

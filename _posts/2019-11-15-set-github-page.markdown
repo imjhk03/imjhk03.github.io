@@ -2,7 +2,7 @@
 title: 깃허브(GitHub) 블로그 구축하기
 description: GitHub Page 구축하면서 삽질한 이야기
 layout: post
-category: [Blog]
+categories: [Blog]
 tags: [blog, jekyll]
 ---
 

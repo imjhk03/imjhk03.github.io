@@ -1,7 +1,7 @@
 ---
 title: Protocol extensions를 이용해서 기본값 제공하기
 layout: post
-tags: [swift, protocol]
+tags: [protocol]
 ---
 프로토콜에 정의한 메서드는 기본값을 가질 수 없다. 하지만 extension을 이용해서 프로토콜에 정의한 메서드 혹은 프로퍼티에 기본값을 제공할 수 있다.
 
