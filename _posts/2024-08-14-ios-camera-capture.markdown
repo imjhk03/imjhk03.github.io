@@ -2,10 +2,10 @@
 title: iOS에서 카메라 캡처
 layout: post
 tags: [UIKit, Camera, Photo, AVFoundation]
+image:
+  path: https://images.unsplash.com/photo-1486962532485-55d6645c218e?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  alt: Image from Unsplash
 ---
-
-![https://images.unsplash.com/photo-1486962532485-55d6645c218e?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D](https://images.unsplash.com/photo-1486962532485-55d6645c218e?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-_Image from Unsplash_ 
 
 사이드 프로젝트 진행하면서 Vision Framework을 다뤄봤는데, 자연스럽게 카메라 기능에 대한 기술도 접하게 되었다. 단순하게 시스템 카메라 UI를 사용할 수 있고 직접 카메라 UI를 구현할 수 있었는데, 사이드 프로젝트 특성에 따라 자체 커스텀 카메라 UI를 구현하게 되었다.
 
