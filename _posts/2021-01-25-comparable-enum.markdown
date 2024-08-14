@@ -3,7 +3,7 @@ title: Comparable enum
 layout: post
 author: Joohee Kim
 description: From Swift 5.3 and later, enums can be comparable
-tags: swift
+tags: [enums]
 ---
 
 From Swift 5.3 and later, enums can be comparable. We can compare two cases from the enum with ```>```, ```<``` and similar.

@@ -1,8 +1,8 @@
 ---
 title: How to detect current text while texting in UITextField
 layout: post
-categories: Tips
-tags: iOS
+categories: [Problem Solving]
+tags: [uikit]
 ---
 
 While typing a text in `UITextField`, we could get the current text with `UITextFieldDelegate`'s Instance Method `textFieldDidChangeSelection(_:)`. But this method only works at iOS 13.0+, so to let other lower iOS version to use this is how it works.

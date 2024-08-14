@@ -1,7 +1,7 @@
 ---
 title: 화면 상태에 따라서 View가 그리는 작업, Render
 layout: post
-tags: [architecture, design patterns, view]
+tags: [code structure, design patterns]
 image:
   path: https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb
   alt: Image from Unsplash

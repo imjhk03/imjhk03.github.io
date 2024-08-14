@@ -1,7 +1,7 @@
 ---
 title: SwiftUI에서 View에 Background 추가하기
 layout: post
-tags: swiftui
+tags: [swiftui, ui development]
 ---
 
 ## View에 Background 더하기

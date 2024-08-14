@@ -1,8 +1,8 @@
 ---
 title: 스위프트에서 URL에 JSON을 파라미터로 보내는 방법
 layout: post
-category: [Tips]
-tags: [url]
+categories: [Tips]
+tags: [urls]
 ---
 
 스위프트에서 `wkwebview`로 url 로드할 때, 아래와 같이 json 형태의 쿼리 파라미터를 담아서 호출해야 하는 경우가 있을 수 있다.

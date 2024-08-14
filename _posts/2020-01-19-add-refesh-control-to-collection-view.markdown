@@ -2,7 +2,7 @@
 title: Add Refresh Control to Collection View
 layout: post
 description: How to add pull-to-refresh control to scroll views
-tags: iOS
+tags: [uikit, ui development]
 ---
 
 I've been currently rebuilding a project that I'm working on, and there were some UI issues when refreshing datas. `UIRefreshControl` was implied for pull-to-refresh style, but the project deployment target was iOS 8 and some old codes were left. After changing the code, I wanted to write a post about it. So this post will show how to add pull-to-refresh style to collection view or other scroll views.

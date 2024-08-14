@@ -1,7 +1,7 @@
 ---
 title: Enable swipe back and the bug
 layout: post
-tags: iOS
+tags: [uikit, ui development]
 ---
 
 ## Enable swipe back when navigation bar is hidden

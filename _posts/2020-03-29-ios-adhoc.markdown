@@ -1,7 +1,7 @@
 ---
 title: Ad Hoc 방식으로 iOS 앱 개발하는 방법
 layout: post
-tags: iOS deploy
+tags: [ad hoc distribution]
 ---
 
 예전에 사내용으로 앱을 개발하여 배포했던 적이 있었다. 사내용으로 만들 때는 Enterprise 개발자 계정으로 Ad Hoc 또는 Enterprise 용으로 앱을 만들어 배포할 수 있는데, 그중에 Ad Hoc 방식으로 했던 것들을 정리해보았다. (개인적으로 보려고 작성해서 이해하기 힘들 수 있다.)

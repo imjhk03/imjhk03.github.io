@@ -1,8 +1,7 @@
 ---
 title: 개인적으로 추천하는 도움이 되는 iOS 공부 자료
 layout: post
-categories: Tips
-tags: iOS
+tags: [iOS]
 ---
 
 ## Overview

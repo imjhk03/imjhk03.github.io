@@ -1,8 +1,7 @@
 ---
 title: WWDC21 Keynote에 대한 나의 생각들
 layout: post
-tags: wwdc
-category: WWDC
+categories: WWDC
 ---
 
 ## Overview

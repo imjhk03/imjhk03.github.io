@@ -1,8 +1,8 @@
 ---
 title: 'dyld: library not loaded error 해결하기'
 layout: post
-categories: Tips
-tags: cocoaPods
+categories: [Problem Solving]
+tags: [cocoaPods]
 ---
 
 최근에 프로젝트에 TDD를 위해서 오픈소스 라이브러리 추가하여 작업 진행 중에 있습니다. ```RxTest``` 및 기타 라이브러리 추가하여 작업한 부분을 로컬 리파지토리에 병합하려고 하니 build 에러가 떴습니다. 다른 작업자분께서 작업한 부분이라 pull 받고 나서 에러가 떴는데, 아래와 같이 Xcode 콘솔에 나타났습니다.

@@ -1,7 +1,7 @@
 ---
 title: '나의 새로운 Mac 설정 목록 (Setup my personal Mac)'
 layout: post
-tags: [workflow, macOS]
+tags: [workflow]
 ---
 
 > 2023.01.20 업데이트: macOS Ventura 13.1 버전 기준으로 업데이트

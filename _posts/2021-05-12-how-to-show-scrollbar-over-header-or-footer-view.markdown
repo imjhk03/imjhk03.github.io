@@ -1,7 +1,8 @@
 ---
 title: How to show scrollbar over header or footer view
 layout: post
-tags: iOS
+categories: [Problem Solving]
+tags: [uikit, ui development]
 ---
 
 # Overview

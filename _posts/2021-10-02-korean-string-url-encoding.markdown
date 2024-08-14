@@ -1,7 +1,7 @@
 ---
 title: 한글 들어간 url string을 인코딩하는 방법
 layout: post
-tags: [swift, strings, url]
+tags: [strings, urls]
 ---
 
 문자열(이후 string)을 URL로 변환하여 사용하는 경우가 있는데, string 값에 한글 혹은 공백 같은 값이 들어갈 경우 nil 값이 반환된다. 퍼센트 인코딩(percent-encoding)을 해야 올바른 url로 변환할 수 있는데, 스위프트 string에서 `addingPercentEncoding(withAllowedCharacters:)` 을 사용하면 된다. 파라미터로 `.urlQueryAllowed`을 넣는데, 사용하려는 URL 형식에 맞게 `CharacterSet`에 있는 값들 중에 사용하면 된다.
