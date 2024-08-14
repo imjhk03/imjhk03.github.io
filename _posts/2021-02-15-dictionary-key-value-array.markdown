@@ -1,8 +1,8 @@
 ---
 title: Get an Array of Dictionary's keys or values
 layout: post
-categories: Tips
-tags: swift
+categories: [Tips]
+tags: [arrays]
 ---
 
 If you need an array of keys or values of a dictionary, Swift has an easy way to do it.

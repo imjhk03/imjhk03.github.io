@@ -3,7 +3,7 @@ title: How to deal with scroll view content size with storyboard
 layout: post
 author: Joohee Kim
 description: Create scroll view properly with storyboard
-tags: [iOS, ui development, storyboard]
+tags: [uikit, ui development, storyboard]
 ---
 
 `UIScrollView` is very useful when presenting content that are larger than a single screen. I've been using it to support iPhone SE users or iPhone 8 users to let them scroll and see contents.

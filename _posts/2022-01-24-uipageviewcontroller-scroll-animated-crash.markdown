@@ -1,7 +1,8 @@
 ---
 title: UIPageViewController의 transitionStyle이 scroll일 경우, 크래시가 나는 버그 해결
 layout: post
-tags: iOS bugfix
+categories: [Problem Solving]
+tags: [uikit]
 ---
 
 이상하게 iOS 15에서 특정 페이지로 스크롤 할 때, 크래시가 발생하는 일이 생겼습니다. iOS 15 미만 기기에서는 발생하지 않았는데, iOS 15에서만 발생하여 iOS 15에서만 UIPageViewController가 내부적으로 특이하게 동작하는 것 같았습니다. 크래시가 발생하는 부분은 아래 코드 부분이었습니다.

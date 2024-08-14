@@ -1,7 +1,7 @@
 ---
 title: 이미 git으로 관리하고 있는 파일을 .gitignore에 추가했을 때, 변경해도 더 이상 추적하지 않도록 하는 방법
 layout: post
-category: [Git]
+categories: [Git]
 tags: [git]
 ---
 

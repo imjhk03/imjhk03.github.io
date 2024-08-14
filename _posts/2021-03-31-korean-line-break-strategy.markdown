@@ -2,7 +2,7 @@
 title: iOS 14부터 UILabel에서 한글 사용할 때 줄바꿈 이쁘게 하기 (lineBreakStrategy)
 layout: post
 author: Joohee Kim
-tags: iOS
+tags: [uikit]
 ---
 
 iOS에서 `UILabel`에 한글을 사용할 때, 줄 바꿈이 이쁘게 되지 않아 문제가 됐었는데, 찾다 보니 iOS 14에서부터 한글 사용할 때 줄 바꿈이 이쁘게 할 수 있는 설정이 있다고 해서 테스트해봤다.

@@ -1,7 +1,7 @@
 ---
 title: 블로그에 댓글 기능 추가하기, Giscus
 layout: post
-category: [Blog]
+categories: [Blog]
 tags: [blog, jekyll]
 ---
 

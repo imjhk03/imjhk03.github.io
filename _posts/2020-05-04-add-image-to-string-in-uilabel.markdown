@@ -1,8 +1,7 @@
 ---
 title: Add image to string in UILabel using NSTextAttachment
 layout: post
-categories: Tips
-tags: iOS
+tags: [uikit, ui development]
 ---
 
 Sometimes you need to add image to a string in a `UILabel`, but using `UIImageView` gets complicated and sometimes not efficient. But Apple provides a simpler way, using `NSAttributedString` and `NSTextAttachment`. Here's how you do it.

@@ -2,7 +2,7 @@
 title: git 강의 때 들었던 내용 정리
 layout: post
 description: 2017년도 T아카데미 (18차) '대학생을 위한 Git 실전 활용법' 강의 내용 정리
-category: [Git]
+categories: [Git]
 tags: [git]
 ---
 

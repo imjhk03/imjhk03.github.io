@@ -1,8 +1,8 @@
 ---
 title: macOS Big Sur에서 Xcode cache 지우는 방법
 layout: post
-categories: Tips
-tags: xcode
+categories: [Tips]
+tags: [xcode, cache]
 ---
 
 macOS Big Sur에서 Xcode 캐시 혹은 미사용 iOS 시뮬레이터 버전들을 저장공간 > 관리 > 개발자 영역에서 쉽게 지울 수 있습니다.

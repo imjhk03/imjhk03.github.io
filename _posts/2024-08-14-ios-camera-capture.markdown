@@ -1,11 +1,11 @@
 ---
 title: iOS에서 카메라 캡처
 layout: post
-tags: [UIKit, Camera, Photo, AVFoundation]
+tags: [uikit, camera, photo, AVFoundation]
+image:
+  path: https://images.unsplash.com/photo-1486962532485-55d6645c218e?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  alt: Image from Unsplash
 ---
-
-![https://images.unsplash.com/photo-1486962532485-55d6645c218e?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D](https://images.unsplash.com/photo-1486962532485-55d6645c218e?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-_Image from Unsplash_ 
 
 사이드 프로젝트 진행하면서 Vision Framework을 다뤄봤는데, 자연스럽게 카메라 기능에 대한 기술도 접하게 되었다. 단순하게 시스템 카메라 UI를 사용할 수 있고 직접 카메라 UI를 구현할 수 있었는데, 사이드 프로젝트 특성에 따라 자체 커스텀 카메라 UI를 구현하게 되었다.
 
@@ -38,15 +38,15 @@ _From Apple Developer_
 
 ### 접근 권한 알림 설정
 카메라와 마이크에 대한 접근 권한은 Info.plist 파일에 키를 추가하여 접근 권한에 대한 메시지를 작성할 수 있다.
-* 카메라 사용 접근 권한 키는 [NSCameraUsageDescription](https://developer.apple.com/documentation/bundleresources/information_property_list/nscamerausagedescription)
-* 마이크 사용 접근 권한 키는 [NSMicrophoneUsageDescription](https://developer.apple.com/documentation/bundleresources/information_property_list/nsmicrophoneusagedescription)
+* 카메라 사용 접근 권한 키는 [NSCameraUsageDescription](https://developer.apple.com/documentation/bundleresources/information_property_list/nscamerausagedescription){:target="_blank"}
+* 마이크 사용 접근 권한 키는 [NSMicrophoneUsageDescription](https://developer.apple.com/documentation/bundleresources/information_property_list/nsmicrophoneusagedescription){:target="_blank"}
 
 ![Info.plist file settings](/assets/img/2024/08/14/image2.png)
 
-카메라를 사용하기 전에 접근 권한 상태를 확인하고 사용하는 것이 좋다. [AVCaptureDevice](https://developer.apple.com/documentation/avfoundation/avcapturedevice) [authorizationStatus\(for:\)](https://developer.apple.com/documentation/avfoundation/avcapturedevice/1624613-authorizationstatus) 메서드를 사용해서 확인하고, 만약 접근 권한이 거부되어 있다면 [requestAccess\(for:completionHandler:\)](https://developer.apple.com/documentation/avfoundation/avcapturedevice/1624584-requestaccess) 메서드를 사용하여 사용자에게 다시 접근 권한에 대한 알림을 띄울 수 있다. 앱이 만약 필수적으로 카메라를 사용하지 않고 카메라 기능을 사용하는 경우가 따로 있다면, 그때 접근 권한을 체크하는 방법도 있다. 자세한 내용은 [애플 개발자 사이트](https://developer.apple.com/documentation/avfoundation/capture_setup/requesting_authorization_to_capture_and_save_media#2958841)에서 참고하면 좋다.
+카메라를 사용하기 전에 접근 권한 상태를 확인하고 사용하는 것이 좋다. [AVCaptureDevice](https://developer.apple.com/documentation/avfoundation/avcapturedevice){:target="_blank"} [authorizationStatus\(for:\)](https://developer.apple.com/documentation/avfoundation/avcapturedevice/1624613-authorizationstatus){:target="_blank"} 메서드를 사용해서 확인하고, 만약 접근 권한이 거부되어 있다면 [requestAccess\(for:completionHandler:\)](https://developer.apple.com/documentation/avfoundation/avcapturedevice/1624584-requestaccess){:target="_blank"} 메서드를 사용하여 사용자에게 다시 접근 권한에 대한 알림을 띄울 수 있다. 앱이 만약 필수적으로 카메라를 사용하지 않고 카메라 기능을 사용하는 경우가 따로 있다면, 그때 접근 권한을 체크하는 방법도 있다. 자세한 내용은 [애플 개발자 사이트](https://developer.apple.com/documentation/avfoundation/capture_setup/requesting_authorization_to_capture_and_save_media#2958841){:target="_blank"}에서 참고하면 좋다.
 
 ### 미디어 캡처 저장 권한
-카메라나 마이크를 통해 캡처한 미디어를 사진 라이브러리에 저장하고 싶다면 사진 라이브러리에 대한 접근 권한이 꼭 필요하다. 미디어의 종류에 따라 접근 권한이 다르다. 접근 권한에 따라 사용하는 클래스도 다른데, 자세한 내용은 [애플 개발자 사이트](https://developer.apple.com/documentation/avfoundation/capture_setup/requesting_authorization_to_capture_and_save_media#2958849)에서 참고하면 좋다.
+카메라나 마이크를 통해 캡처한 미디어를 사진 라이브러리에 저장하고 싶다면 사진 라이브러리에 대한 접근 권한이 꼭 필요하다. 미디어의 종류에 따라 접근 권한이 다르다. 접근 권한에 따라 사용하는 클래스도 다른데, 자세한 내용은 [애플 개발자 사이트](https://developer.apple.com/documentation/avfoundation/capture_setup/requesting_authorization_to_capture_and_save_media#2958849){:target="_blank"}에서 참고하면 좋다.
 
 ## 카메라 캡처 설정하기
 우선 입력 디바이스에서 미디어 출력으로의 데이터 흐름을 관리하는 미디어 캡처의 기본인 `AVCaptureSession`을 먼저 준비한다.
@@ -79,7 +79,7 @@ if captureSession.canAddInput(deviceInput) {
 }
 ```
 
-iOS는 카메라 디바이스를 선택하는 방법이 `AVCaptureDevice.default` 와 다른 방법이 있는데 [Choosing a Capture Device](https://developer.apple.com/documentation/avfoundation/capture_setup/choosing_a_capture_device)에 자세히 설명되어 있다.
+iOS는 카메라 디바이스를 선택하는 방법이 `AVCaptureDevice.default` 와 다른 방법이 있는데 [Choosing a Capture Device](https://developer.apple.com/documentation/avfoundation/capture_setup/choosing_a_capture_device){:target="_blank"}에 자세히 설명되어 있다.
 
 적절한 카메라 디바이스를 설정했다면, 캡처할 미디어의 종류를 결정하여 출력을 설정하고 세션에 추가한다. 예를 들어 사진을 캡처하고 싶다면 `AVCapturePhotoOutput`을 세션에 더한다.
 
@@ -111,7 +111,7 @@ if captureSession.canAddOutput(videoDataOutput) {
 
 위 코드에서 1번과 2번에 대해서 조금 더 부연 설명이 필요하다.
 
-1. [setSampleBufferDelegate\(_:queue:\)](https://developer.apple.com/documentation/avfoundation/avcapturevideodataoutput/1389008-setsamplebufferdelegate) 메서드는 비디오 출력에 대한 샘플 버퍼를 처리할 델리게이트를 설정한다. [AVCaptureVideoDataOutputSampleBufferDelegate](https://developer.apple.com/documentation/avfoundation/avcapturevideodataoutputsamplebufferdelegate) 프로토콜을 채택하는 객체가 샘플 버퍼를 수신할 것이고, 큐는 샘플 버퍼 처리 작업이 실행될 스레드를 결정한다. 비디오 프레임 처리는 시간이 많이 걸릴 수 있기 때문에 메인 큐 대신 백그라운드 큐를 사용하는 것이 일반적이다. 이 큐의 역할은 다음과 같다.
+1. [setSampleBufferDelegate\(_:queue:\)](https://developer.apple.com/documentation/avfoundation/avcapturevideodataoutput/1389008-setsamplebufferdelegate){:target="_blank"} 메서드는 비디오 출력에 대한 샘플 버퍼를 처리할 델리게이트를 설정한다. [AVCaptureVideoDataOutputSampleBufferDelegate](https://developer.apple.com/documentation/avfoundation/avcapturevideodataoutputsamplebufferdelegate){:target="_blank"} 프로토콜을 채택하는 객체가 샘플 버퍼를 수신할 것이고, 큐는 샘플 버퍼 처리 작업이 실행될 스레드를 결정한다. 비디오 프레임 처리는 시간이 많이 걸릴 수 있기 때문에 메인 큐 대신 백그라운드 큐를 사용하는 것이 일반적이다. 이 큐의 역할은 다음과 같다.
 * **비디오 프레임 처리**: 샘플 버퍼 델리게이트 메서드는 이 큐에서 실행된다
 * **작업 분리**: 메인 스레드의 작업과 비디오 프레임 처리 작업을 분리하여 UI 응답성을 유지한다.
 
@@ -131,7 +131,7 @@ if captureSession.canAddOutput(videoDataOutput) {
     }
     ```
 
-2. `videoDataOutput.videoSettings`에서 비디오 출력에 대한 설정을 하는 부분인데, 여기서는 픽셀 형식을 설정했다. `kCVPixelBufferPixelFormatTypeKey`는 픽셀 버퍼의 형식을 지정하는 키이고, `kCVPixelFormatType_420YpCbCr8BiPlanarFullRange`는 픽셀 형식의 값이다. 작업하고 있는 앱 특성상 실시간으로 카메라를 이용해서 텍스트를 인식하고 Vision Framework을 이용해서 텍스트를 추출하는 작업이 필요하여 고품질의 비디오 캡처와 후처리에 적합한 것으로 설정했다. 다양한 픽셀 형식이 있는데 깊고 자세한 내용은 [TN3121: Selecting a pixel format for an AVCaptureVideoDataOutput](https://developer.apple.com/documentation/technotes/tn3121-selecting-a-pixel-format-for-an-avcapturevideodataoutput)에서 확인하면 좋다.
+2. `videoDataOutput.videoSettings`에서 비디오 출력에 대한 설정을 하는 부분인데, 여기서는 픽셀 형식을 설정했다. `kCVPixelBufferPixelFormatTypeKey`는 픽셀 버퍼의 형식을 지정하는 키이고, `kCVPixelFormatType_420YpCbCr8BiPlanarFullRange`는 픽셀 형식의 값이다. 작업하고 있는 앱 특성상 실시간으로 카메라를 이용해서 텍스트를 인식하고 Vision Framework을 이용해서 텍스트를 추출하는 작업이 필요하여 고품질의 비디오 캡처와 후처리에 적합한 것으로 설정했다. 다양한 픽셀 형식이 있는데 깊고 자세한 내용은 [TN3121: Selecting a pixel format for an AVCaptureVideoDataOutput](https://developer.apple.com/documentation/technotes/tn3121-selecting-a-pixel-format-for-an-avcapturevideodataoutput){:target="_blank"}에서 확인하면 좋다.
 
 여기까지 캡처 세션에 필요한 입력과 출력을 설정했다. 다음은 사용자가 카메라의 입력 화면을 실시간으로 보여주는 화면 작업이 필요하다.
 
@@ -173,7 +173,7 @@ previewView.session = captureSession
 ```
 
 ## 캡처 세션 실행하기
-입력과 출력, 미리보기를 다 설정했다면 [startRunning\(\)](https://developer.apple.com/documentation/avfoundation/avcapturesession/1388185-startrunning) 메서드를 사용해서 캡처 세션을 실행한다. 이 메서드를 호출하면 카메라 같은 입력 장치에서 데이터가 흐르기 시작한다.
+입력과 출력, 미리보기를 다 설정했다면 [startRunning\(\)](https://developer.apple.com/documentation/avfoundation/avcapturesession/1388185-startrunning){:target="_blank"} 메서드를 사용해서 캡처 세션을 실행한다. 이 메서드를 호출하면 카메라 같은 입력 장치에서 데이터가 흐르기 시작한다.
 
 ```swift
 // Starting the capture session is a blocking call. Perform setup using
@@ -205,10 +205,10 @@ private func setupCamera() {
 <br>
 **Resources**
 <br>
-[Capture setup | Apple Developer Documentation](https://developer.apple.com/documentation/avfoundation/capture_setup)
+[Capture setup | Apple Developer Documentation](https://developer.apple.com/documentation/avfoundation/capture_setup){:target="_blank"}
 <br>
-[Requesting authorization to capture and save media | Apple Developer Documentation](https://developer.apple.com/documentation/avfoundation/capture_setup/requesting_authorization_to_capture_and_save_media)
+[Requesting authorization to capture and save media | Apple Developer Documentation](https://developer.apple.com/documentation/avfoundation/capture_setup/requesting_authorization_to_capture_and_save_media){:target="_blank"}
 <br>
-[Setting Up a Capture Session | Apple Developer Documentation](https://developer.apple.com/documentation/avfoundation/capture_setup/setting_up_a_capture_session)
+[Setting Up a Capture Session | Apple Developer Documentation](https://developer.apple.com/documentation/avfoundation/capture_setup/setting_up_a_capture_session){:target="_blank"}
 <br>
-[Camera Capture on iOS · objc.io](https://www.objc.io/issues/21-camera-and-photos/camera-capture-on-ios/)
+[Camera Capture on iOS · objc.io](https://www.objc.io/issues/21-camera-and-photos/camera-capture-on-ios/){:target="_blank"}

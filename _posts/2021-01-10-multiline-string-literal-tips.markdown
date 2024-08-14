@@ -1,8 +1,8 @@
 ---
 title: Multiline string literal tips
 layout: post
-categories: Tips
-tags: swift strings
+categories: [Tips]
+tags: [strings]
 ---
 
 In Swift, we can use multiline string literal to express several lines of string. Although, adding the new line character `\n` can create line break, it only works for string that are displayed. Use multitline strings for formatting string nicely.

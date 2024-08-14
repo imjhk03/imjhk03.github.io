@@ -1,7 +1,7 @@
 ---
 title: Xcode 저장공간 이해 및 관리
 layout: post
-tags: xcode
+tags: [xcode]
 ---
 
 > 해당 글은 [Understanding and Managing Xcode Space](https://www.raywenderlich.com/19998365-understanding-and-managing-xcode-space) 글을 보고 정리한 글입니다.
