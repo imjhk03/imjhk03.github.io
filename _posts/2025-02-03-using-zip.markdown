@@ -1,0 +1,54 @@
+---
+title: Swift zip() - 두 시퀀스 결합하기
+layout: post
+tags: [swift, sequences]
+---
+
+스위프트의 `zip()` 함수는 두 개의 Sequence의 항목끼리 묶어서 하나의 튜플 Sequence로 병합한다. 아래와 같이 두 개의 서로 다른 타입의 시퀀스를 하나의 시퀀스로 만들 수 있다.
+
+```swift
+let words = ["일", "이", "삼", "사"]
+let numbers = 1...4
+
+for (word, number) in zip(words, numbers) {
+    print("\(word): \(number)")
+}
+/*
+Prints
+일: 1
+이: 2
+삼: 3
+사: 4
+*/
+```
+
+만약 두 개의 시퀀스 중에 하나의 시퀀스의 길이가 다르다면, 짧은 시퀀스의 길이 기준으로 병합된 시퀀스가 반환된다.
+
+```swift
+let naturalNumbers = 1...Int.max
+let zipped = Array(zip(words, naturalNumbers))
+// zipped == [("일", 1), ("이", 2), ("삼", 3), ("사", 4)]
+```
+
+아래와 같이 다양한 곳에서 활용할 수 있다.
+```swift
+// 특정 컴포넌트들을 똑같이 설정할 때
+func render(texts: [String]) {
+    for (label, text) in zip(textLabels, texts) {
+        print(text)
+        label.text = text
+    }
+}
+
+// 서로 인접한 항목들끼리 작업이 필요할 때
+for (x, y) in zip(nums, nums.dropFirst()) {
+    if x % 2 == y % 2 {
+        return false
+    }
+}
+```
+
+<br>
+**참고**
+<br>
+[zip(\_\:\_\:) | Apple Developer Documentation](https://developer.apple.com/documentation/swift/zip(_:_:)){:target="_blank"}
