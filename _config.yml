@@ -226,4 +226,11 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-plugins: ['jekyll-twitter-plugin']
+jekyll_compose:
+  default_front_matter:
+    posts:
+      layout: post
+      categories:
+      tags:
+
+plugins: ['jekyll-twitter-plugin', 'jekyll-compose']
