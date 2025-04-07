@@ -194,7 +194,7 @@ label.attributedText = message.attributedString
 ```
 
 이 코드를 실행하면 볼드체와 초록색으로 강조된 텍스트가 화면에 표시된다.
-![Attributed Strings](/assets/img/2025/01/06/image1.png)
+![Attributed Strings](/assets/img/2025/01/13/image1.png)
 
 ## 정리
 Swift 5에서 크게 개선된 문자열 보간 기능은 단순한 문자열 조합 이상의 가능성을 제공한다. 타입 안전성을 보장하면서도 우리가 원하는 형태로 자유롭게 확장할 수 있어, 다양한 상황에서 유연하게 활용할 수 있다.
