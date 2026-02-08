@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: 'https://imjhk03.github.io'
+url: 'https://jooheekim.me'
 
 github:
   username: imjhk03 # change to your Github username
@@ -183,6 +183,7 @@ defaults:
       # DO NOT change this unless you're a Pro user on Jekyll and Web development,
       # Or you think you're smart enough to change other relevant URLs within this template.
       permalink: /posts/:title/
+      noindex: true # SEO migration: tell search engines not to index old blog
   - scope:
       path: _drafts
     values:
@@ -193,6 +194,11 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+      noindex: true # SEO migration: tell search engines not to index old blog
+  - scope:
+      path: "" # Apply noindex to all other pages (homepage, archives, etc.)
+    values:
+      noindex: true
 
 sass:
   style: compressed
